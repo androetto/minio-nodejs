@@ -46,10 +46,8 @@ You can define a `.env` file in the root folder to configure your setup:
 
 ```bash
 MINIO_ENDPOINT=localhost
-MINIO_PORT=9000
 MINIO_ACCESS_KEY=minio
 MINIO_SECRET_KEY=minio123
-MINIO_BUCKET=archivos
 ```
 
 ## 📬 Postman Collection

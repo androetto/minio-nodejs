@@ -86,7 +86,7 @@ async function deleteObject(req: Request, res: Response): Promise<void> {
 }
 
 app.post('/upload-object', uploadObject);
-app.post('/delete-object', deleteObject);
+app.delete('/delete-object', deleteObject);
 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
