@@ -52,6 +52,29 @@ MINIO_SECRET_KEY=minio123
 MINIO_BUCKET=archivos
 ```
 
+## 📬 Postman Collection
+
+You can test the API endpoints using the provided Postman collection.
+
+### 🧪 Available Requests
+
+- **POST `/upload-object`**  
+  Upload an object (e.g. image or file) to a specific path inside a MinIO bucket.  
+  **Body (form-data):**
+  - `image`: *(file)* — the file to upload
+  - `path`: *(text)* — the object path inside the bucket (e.g. `myfolder/images/`)
+  - `bucket`: *(text)* — the name of the bucket to upload the object into
+
+- **DELETE `/delete-object`**  
+  Delete a specific object from a bucket.  
+  **Body (JSON):**
+  ```json
+  {
+    "bucket": "your-bucket-name",
+    "path": "your/object/path/file.png"
+  }
+
+
 ## 🤝 Contributing
 Contributions are more than welcome! If you'd like to help improve this project, here's how you can get started:
 
