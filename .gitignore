@@ -1,14 +1,18 @@
-# Directorio de compilación
+# Build directory
 dist/
 
-# Archivos de configuración
+# Configuration files
 node_modules/
 .cache/
 .env
 uploads/
 
-# Archivos de VSCode
+# VSCode files
 .vscode/
 
-# Archivos de WebStorm
+# WebStorm files
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
