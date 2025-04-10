@@ -1,14 +1,25 @@
 {
   "name": "minio-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js project for managing object upload, deletion, and access using Minio, an S3-compatible object storage server.",
   "main": "index.ts",
   "scripts": {
     "start": "nodemon --exec ts-node index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "Node.js",
+    "Minio",
+    "S3",
+    "object storage",
+    "AWS S3",
+    "storage management",
+    "file upload",
+    "file deletion",
+    "cloud storage",
+    "API"
+  ],
   "author": "Franco Androetto",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/multer": "^1.4.11",
