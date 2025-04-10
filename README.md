@@ -25,7 +25,7 @@ A REST API built with Node.js and TypeScript to interact with a MinIO server (an
 
 ## 📦 Installation
 
-### Option 1: Using Docker Compose
+### Using Docker Compose
 
 1. Copy the `docker-compose.yml` file to your server:
    ```bash
